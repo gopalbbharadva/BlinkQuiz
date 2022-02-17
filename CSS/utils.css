@@ -1,0 +1,13 @@
+:root {
+  --Hover_Color: #16181d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--Body_Bg_Color);
+  color: var(--Color_White);
+}
