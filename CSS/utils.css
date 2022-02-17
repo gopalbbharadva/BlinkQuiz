@@ -1,5 +1,8 @@
 :root {
-  --Hover_Color: #16181d;
+  --over_Color: #16181d;
+
+  --padding: 1rem;
+  --margin: 1rem;
 }
 
 html {
@@ -10,4 +13,16 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--Body_Bg_Color);
   color: var(--Color_White);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regular-text {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
 }
