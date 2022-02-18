@@ -1,8 +1,13 @@
+@import url("/Pages/rules.css");
+
 :root {
   --over_Color: #16181d;
 
   --padding: 1rem;
   --margin: 1rem;
+
+  --Regular_Radius: 5px;
+  --Poppins_Font: "Poppins", sans-serif;
 }
 
 html {
@@ -10,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--Poppins_Font);
   background-color: var(--Body_Bg_Color);
   color: var(--Color_White);
 }
