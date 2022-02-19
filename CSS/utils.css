@@ -1,4 +1,5 @@
 @import url("/Pages/Rules/rules.css");
+@import url('/Pages/Quiz/quiz.css');
 
 :root {
   --over_Color: #16181d;
