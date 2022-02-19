@@ -1,0 +1,17 @@
+.result-grid {
+  display: grid;
+  padding: var(--padding);
+}
+.final-score {
+  margin: var(--margin);
+}
+.result-container {
+  padding: var(--padding);
+}
+
+@media screen and (min-width: 500px) {
+  .result-grid {
+    grid-template-columns: 30rem;
+    justify-content: center;
+  }
+}

@@ -1,6 +1,7 @@
 @import url("/Pages/Rules/rules.css");
-@import url('/Pages/Quiz/quiz.css');
-@import url('/Pages/Questions/question.css');
+@import url("/Pages/Quiz/quiz.css");
+@import url("/Pages/Questions/question.css");
+@import url("/Pages/Result/result.css");
 
 :root {
   --Hover_Color: #16181d;
@@ -32,4 +33,10 @@ body {
   font-size: 1rem;
   font-weight: 400;
   margin: 0;
+}
+.right-answer {
+  background-color: var(--Color_Success_500);
+}
+.wrong-answer{
+  background-color: var(--Color_Danger_500);
 }
