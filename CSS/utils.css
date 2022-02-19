@@ -1,8 +1,9 @@
 @import url("/Pages/Rules/rules.css");
 @import url('/Pages/Quiz/quiz.css');
+@import url('/Pages/Questions/question.css');
 
 :root {
-  --over_Color: #16181d;
+  --Hover_Color: #16181d;
 
   --padding: 1rem;
   --margin: 1rem;
