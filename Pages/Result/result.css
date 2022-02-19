@@ -1,14 +1,12 @@
 .result-grid {
   display: grid;
   padding: var(--padding);
-  flex-direction: column;
 }
 .final-score {
   margin: var(--margin);
 }
 .result-container {
   padding: var(--padding);
-  flex-direction: column;
 }
 
 @media screen and (min-width: 500px) {
