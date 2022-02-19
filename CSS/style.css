@@ -42,7 +42,7 @@
   font-size: 1rem;
   background-color: transparent;
   border-radius: 5px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   transition: 0.3s;
 }
 
@@ -56,10 +56,8 @@
 }
 .quiz-container {
   cursor: pointer;
-  display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
   background-color: var(--Secondary_Bg_Color);
   padding: 1rem;
   border-radius: 5px;
@@ -76,9 +74,11 @@
   text-align: center;
   font-size: 0.9rem;
 }
+
 .quiz-image {
-  max-width: 10rem;
-  width: 100%;
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 500px) {
@@ -88,12 +88,14 @@
   .app-intro {
     flex-direction: row;
   }
-  .quiz-image {
-    max-width: 13rem;
+  .quiz-image-container {
+    width: 12rem;
+    height: 12rem;
   }
   .quiz-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 20rem));
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 18rem));
+    gap: 20px;
     justify-content: center;
   }
 }
